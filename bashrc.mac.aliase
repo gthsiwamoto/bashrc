@@ -1,0 +1,4 @@
+# to use shared clipboard for mac
+alias vim='/usr/local/bin/vim'
+
+alias emacs='emacs &'
