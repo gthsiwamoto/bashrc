@@ -6,19 +6,19 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # Prompt
-source bashrc.prompt
+source ~/.bashrc.d/bashrc.prompt
 
 # Aliases
-source bashrc.aliase
+source ~/.bashrc.d/bashrc.alias
 
 # Aliases for mac
-if [ `uname` = 'Darwin']; then
-  source bashrc.mac.aliase
+if [ `uname` = 'Darwin' ]; then
+  source ~/.bashrc.d/bashrc.mac.aliase
 fi
 
 # Local settings
-if [ -f bashrc.local ]; then
-  fource bashrc.local
+if [ -f ~/.bashrc.d/bashrc.local ]; then
+  source ~/.bashrc.d/bashrc.local
 fi
 
 # Run screen
