@@ -1,6 +1,6 @@
 # Install
 
 ```
-$ git clone git@github.com:shskwmt/bashrc.d.git .bashrc.d
+$ git clone https://github.com/shskwmt/bashrc.d.git .bashrc.d
 $ ln -s .bashrc.d/bashrc .bashrc
 ```
