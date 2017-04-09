@@ -22,6 +22,6 @@ if [ -f ~/.bashrc.d/bashrc.local ]; then
 fi
 
 # Run screen
-#if [ $SHLVL = 1 -a "$TERM" != 'dumb' ];then
+#if [ $SHLVL = 1 -a "$TERM" != 'dumb' ]; then
 #  screen -xR
 #fi
